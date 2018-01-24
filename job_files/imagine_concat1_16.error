@@ -1,0 +1,26 @@
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nilearn/_utils/niimg_conversions.py:144: UserWarning: Affine is different across subjects. Realignement on first subject affine forced
+  warnings.warn('Affine is different across subjects.'
+Traceback (most recent call last):
+  File "imagine_concatenate.py", line 26, in <module>
+    output= concat_imgs(all_func, memory_level=0, auto_resample=True, verbose=0)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nilearn/_utils/niimg_conversions.py", line 476, in concat_niimgs
+    return new_img_like(first_niimg, data, first_niimg.affine, copy_header=True)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nilearn/image/image.py", line 646, in new_img_like
+    return klass(data, affine, header=header)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/nifti1.py", line 1762, in __init__
+    file_map)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/analyze.py", line 923, in __init__
+    dataobj, affine, header, extra, file_map)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/spatialimages.py", line 373, in __init__
+    self.update_header()
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/nifti1.py", line 2039, in update_header
+    super(Nifti1Image, self).update_header()
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/nifti1.py", line 1798, in update_header
+    super(Nifti1Pair, self).update_header()
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/spatialimages.py", line 400, in update_header
+    hdr.set_data_shape(shape)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/nifti1.py", line 882, in set_data_shape
+    super(Nifti1Header, self).set_data_shape(shape)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nibabel/analyze.py", line 637, in set_data_shape
+    (shape,))
+nibabel.spatialimages.HeaderDataError: shape (64, 64, 32, 63175) does not fit in dim datatype

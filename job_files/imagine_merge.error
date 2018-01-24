@@ -1,0 +1,5 @@
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib/python2.7/site-packages/nilearn/_utils/niimg_conversions.py:144: UserWarning: Affine is different across subjects. Realignement on first subject affine forced
+  warnings.warn('Affine is different across subjects.'
+slurmstepd: error: Job 59090 exceeded memory limit (4631432 > 4194304), being killed
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: *** JOB 59090 ON compute-8-1 CANCELLED AT 2018-01-16T11:36:30 ***

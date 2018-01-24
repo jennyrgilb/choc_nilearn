@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#SBATCH --job-name=imagine_merge
+#SBATCH --output=imagine_concat1_16.output
+#SBATCH --error=imagine_concat1_16.error
+#SBATCH -p batch
+#SBATCH -t 12:00:00
+#SBATCH -n 1
+#SBATCH --mem-per-cpu 32000
+
+# Run your executablue
+cd /projects/niblab/scripts/nilean_stuff
+
+python imagine_concatenate.py 
+
