@@ -20,9 +20,12 @@ basepath=os.path.join('/projects','niblab','data','eric_data','W1','imagine')
 
 #make a list of the files to concat
 all_func = glob.glob(os.path.join(basepath,'level1_grace_edit','cs*++.feat','filtered_func_data.nii.gz'))
-print(all_func)
 
-#contat files via nilearn concatenate function
-output= concat_imgs(all_func, memory_level=0, auto_resample=True, verbose=0)
-outfile=os.path.join(basepath,'concatenated_imagine.nii.gz')
-nib.save(output, outfile) 
+#load in all the files from the glob above, then convert them from nifti1 to nifti2
+ni2_funcs = (nib.Nifti2Image.from_image(nib.load(func)) for func in all_func)
+#concat, this is with nibabel, but should work with nilearn too
+ni2_concat = nib.concat_images(ni2_funcs, check_affines=False, axis=3)
+#set the output file name
+outfile=os.path.join(basepath,'concatenated_imagine_gtest.nii')
+#write the file
+ni2_concat.to_filename(outfile)
