@@ -1,0 +1,117 @@
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/grid_search.py:42: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. This module will be removed in 0.20.
+  DeprecationWarning)
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+sizeof_hdr should be 540; set sizeof_hdr to 540
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:113: UserWarning: Features [1365 2239 2249 2415 2424] are constant.
+  UserWarning)
+/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+Traceback (most recent call last):
+  File "img_nested_app_v_unapp_half.py", line 119, in <module>
+    nested_cv_scores = cross_val_score(grid, X, y)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/cross_validation.py", line 1581, in cross_val_score
+    for train, test in cv)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 779, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 625, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 588, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 111, in apply_async
+    result = ImmediateResult(func)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 332, in __init__
+    self.results = batch()
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 131, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/cross_validation.py", line 1675, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/grid_search.py", line 838, in fit
+    return self._fit(X, y, ParameterGrid(self.param_grid))
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/grid_search.py", line 574, in _fit
+    for parameters in parameter_iterable
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 749, in __call__
+    n_jobs = self._initialize_backend()
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 547, in _initialize_backend
+    **self._backend_args)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 317, in configure
+    self._pool = MemmapingPool(n_jobs, **backend_args)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 600, in __init__
+    super(MemmapingPool, self).__init__(**poolargs)
+  File "/usr/share/Modules/software/CentOS-7/python_modules/2.7/lib64/python2.7/site-packages/sklearn/externals/joblib/pool.py", line 420, in __init__
+    super(PicklingPool, self).__init__(**poolargs)
+  File "/usr/lib64/python2.7/multiprocessing/pool.py", line 159, in __init__
+    self._repopulate_pool()
+  File "/usr/lib64/python2.7/multiprocessing/pool.py", line 222, in _repopulate_pool
+    w.start()
+  File "/usr/lib64/python2.7/multiprocessing/process.py", line 130, in start
+    self._popen = Popen(self)
+  File "/usr/lib64/python2.7/multiprocessing/forking.py", line 121, in __init__
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
